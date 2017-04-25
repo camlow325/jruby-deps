@@ -1,4 +1,4 @@
-(defproject puppetlabs/jruby-deps "9.1.8.0-2-SNAPSHOT"
+(defproject puppetlabs/jruby-deps "5.4.0.0-1-SNAPSHOT"
   :description "JRuby dependencies"
   :url "https://github.com/puppetlabs/jruby-deps"
   :license {:name "Apache License, Version 2.0"
@@ -16,7 +16,7 @@
                                      :password :env/clojars_jenkins_password
                                      :sign-releases false}]]
   
-  :plugins [[lein-release-4digit-version "0.1.0"]]
+  :plugins [[lein-release-4digit-version "0.1.1-SNAPSHOT"]]
 
   :uberjar-name "jruby-9k.jar"
 
