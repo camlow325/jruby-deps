@@ -11,7 +11,7 @@
   :dependencies [[org.jruby/jruby-core "9.1.8.0" :exclusions [joda-time]]
                  [org.jruby/jruby-stdlib "9.1.8.0"]]
 
-  :deploy-repositories [["releases" {:url "file://Users/jbarlow/.local-repo"
+  :deploy-repositories [["releases" {:url "file:///Users/jbarlow/.local-repo"
                                      :sign-releases false}]]
   
   :plugins [[lein-release-4digit-version "0.1.1-SNAPSHOT"]]
