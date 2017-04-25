@@ -1,4 +1,4 @@
-(defproject puppetlabs/jruby-deps "5.4.0.0-1-SNAPSHOT"
+(defproject puppetlabs/jruby-deps "5.4.0.0-1"
   :description "JRuby dependencies"
   :url "https://github.com/puppetlabs/jruby-deps"
   :license {:name "Apache License, Version 2.0"
@@ -11,9 +11,7 @@
   :dependencies [[org.jruby/jruby-core "9.1.8.0" :exclusions [joda-time]]
                  [org.jruby/jruby-stdlib "9.1.8.0"]]
 
-  :deploy-repositories [["releases" {:url "https://clojars.org/repo"
-                                     :username :env/clojars_jenkins_username
-                                     :password :env/clojars_jenkins_password
+  :deploy-repositories [["releases" {:url "file://Users/jbarlow/.local-repo"
                                      :sign-releases false}]]
   
   :plugins [[lein-release-4digit-version "0.1.1-SNAPSHOT"]]
