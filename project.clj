@@ -1,4 +1,4 @@
-(defproject puppetlabs/jruby-deps "5.4.0.0-1"
+(defproject puppetlabs/jruby-deps "5.4.0.0-1-SNAPSHOT"
   :description "JRuby dependencies"
   :url "https://github.com/puppetlabs/jruby-deps"
   :license {:name "Apache License, Version 2.0"
